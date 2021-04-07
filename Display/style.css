@@ -1,0 +1,20 @@
+.q{
+    /* width: 100px; */
+    height: 100px;
+}
+.q1{
+    display: inline;
+    background-color: red;
+
+}
+.q2{
+    display: block;
+    background-color: blue;
+    
+
+}
+.q3{
+    display: inline-block;
+    background-color: green;
+width: 50px;
+}
