@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centralizar vertical</title>
+
+    <style>
+        .card {
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+            position: relative;
+        }
+        .card2{
+            clear: left;
+            border: 2px solid green;
+            float: left;
+        }
+                
+        
+         .c1 {
+            background-color: red;
+            line-height: 200px;
+        }
+
+        .c2 {
+            position: absolute;
+            top: 50%;
+            background-color: blue;
+            color: white;
+            transform: translateY(-50%);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="c1">Nathan Martini Duarte</div>
+
+    </div>
+
+    <div class="card">
+        <div class="c2">Nathan Martini Duarte</div>
+
+    </div>
+
+    <div class="card2">
+        <div>
+            Nathan Martini Duarte
+        </div>
+    </div>
+</body>
+
+</html>
